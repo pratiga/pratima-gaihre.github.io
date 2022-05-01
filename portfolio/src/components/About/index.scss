@@ -15,14 +15,14 @@
   animation-duration: 12s;
   transform-style: preserve-3d;
   transform-origin: 100px 100px 0;
-  margin-left: calc(50% -100px);
+  margin-left: calc(50% - 100px);
   
   div {
       position: absolute;
       width: 200px;
       height: 200px;
       border: 1px solid #ccc;
-      background: rgba(255, 255, 255. 0.4);
+      background: rgba(255, 255, 255, 0.4);
       text-align: center;
       font-size: 100px;
       display: flex;

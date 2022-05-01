@@ -1,5 +1,7 @@
-import 'index.scss'
+import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 import { useEffect, useState } from 'react'
 import {
   faAngular,
@@ -7,7 +9,6 @@ import {
   faGitAlt,
   faHtml5,
   faReact,
-  faJsSquare,
 } from '@fortawesome/free-brands-svg-icons'
 
 const About = () => {

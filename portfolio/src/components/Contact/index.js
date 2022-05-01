@@ -39,7 +39,7 @@ const Contact = () => {
     
     return (
         <>
-        < className='container contact-page'>
+        <div className='container contact-page'>
         <div className='text-zone'>
         <h1>
         <AnimatedLetters
@@ -68,7 +68,7 @@ const Contact = () => {
                 />
                 </li>
                 <li>
-                    <Input placeholder="Subject"
+                    <input placeholder="Subject"
                      type="text" 
                      name="subject"
                      required
@@ -98,6 +98,7 @@ const Contact = () => {
         </div>
         
         <Loader type='pacman' />
+        </div>
         </>
     )
 }
