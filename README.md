@@ -1,2 +1,2 @@
 # pratima-gaihre.github.io
-personal portfolio
+personal portfolio using react js 
